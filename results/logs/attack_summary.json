@@ -1,0 +1,44 @@
+{
+  "model": "ResNet18 fine-tuned on GTSRB",
+  "clean_accuracy": 98.61441013460016,
+  "fgsm_results": {
+    "14": {
+      "asr": 60.0,
+      "success": 12,
+      "total": 20,
+      "label": "Stop"
+    },
+    "2": {
+      "asr": 45.0,
+      "success": 9,
+      "total": 20,
+      "label": "Speed limit (50km/h)"
+    },
+    "7": {
+      "asr": 80.0,
+      "success": 16,
+      "total": 20,
+      "label": "Speed limit (100km/h)"
+    },
+    "13": {
+      "asr": 5.0,
+      "success": 1,
+      "total": 20,
+      "label": "Yield"
+    },
+    "17": {
+      "asr": 20.0,
+      "success": 4,
+      "total": 20,
+      "label": "No entry"
+    }
+  },
+  "target_classes": [
+    "Stop",
+    "Speed limit (50km/h)",
+    "Speed limit (100km/h)",
+    "Yield",
+    "No entry"
+  ],
+  "note": "FGSM with epsilon=0.1, tested on correctly classified samples"
+}
