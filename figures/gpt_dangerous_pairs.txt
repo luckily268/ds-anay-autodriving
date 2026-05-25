@@ -1,0 +1,62 @@
+[
+  {
+    "source": "Stop",
+    "target": "Yield",
+    "danger": 10,
+    "reason": "车辆可能不停止直接通过交叉口，导致严重碰撞"
+  },
+  {
+    "source": "Stop",
+    "target": "Speed limit 50km/h",
+    "danger": 10,
+    "reason": "误判为限速标志，车辆不减速停车，极易引发事故"
+  },
+  {
+    "source": "No entry",
+    "target": "Speed limit 30km/h",
+    "danger": 10,
+    "reason": "车辆进入禁止区域，可能逆行或与正常行驶车辆相撞"
+  },
+  {
+    "source": "No entry",
+    "target": "Turn right ahead",
+    "danger": 9,
+    "reason": "车辆误认为可右转，实际为禁止驶入，导致逆向行车风险"
+  },
+  {
+    "source": "Stop",
+    "target": "Turn right ahead",
+    "danger": 9,
+    "reason": "车辆直接右转而不停车，忽视停止标识，易与横向车辆碰撞"
+  },
+  {
+    "source": "No entry",
+    "target": "Yield",
+    "danger": 9,
+    "reason": "车辆以为只需让行而进入禁行区，可能发生正面碰撞"
+  },
+  {
+    "source": "Speed limit 30km/h",
+    "target": "Speed limit 100km/h",
+    "danger": 8,
+    "reason": "实际限速低，误判为高限速导致超速，制动距离不足"
+  },
+  {
+    "source": "Stop",
+    "target": "Speed limit 80km/h",
+    "danger": 8,
+    "reason": "停止标志被误认为是限速标志，车辆不停止，危险性极高"
+  },
+  {
+    "source": "Speed limit 50km/h",
+    "target": "Speed limit 100km/h",
+    "danger": 7,
+    "reason": "超速行驶，可能无法应对前方突然情况"
+  },
+  {
+    "source": "Yield",
+    "target": "Stop",
+    "danger": 5,
+    "reason": "让行标志误判为停止，车辆无故停车易被后车追尾"
+  }
+]
