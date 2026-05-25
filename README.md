@@ -34,7 +34,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 
-### 4. 配置GPT API（用于创新实验模块）
+### 4. 配置GPT API（用于创新实验模块,也可以使用其他Ai）
 
 设置环境变量：
 ```bash
